@@ -1,0 +1,36 @@
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  border: 1px solid #444;
+  border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  margin: 2px;
+  transition: 0.2s;
+  border: 1px solid #444;
+  box-sizing: border-box;
+}
+
+.toggle:hover {
+  border-color: rgb(217, 176, 255);
+  transition: 0.2s;
+  box-shadow: 0 0 50px rgb(217, 176, 255);
+}
+
+.toggle:hover .circle {
+  left: 20px;
+  transition: 0.2s;
+  border-color: rgb(217, 176, 255);
+  box-shadow: 0 0 30px rgb(217, 176, 255),
+    inset 0 0 10px rgb(217, 176, 255, 0.2);
+}
