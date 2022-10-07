@@ -21,6 +21,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--nav-text-color);
 }
 
 .button {
@@ -38,8 +39,7 @@ a {
 
 nav {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   /* height: 100vh; */
