@@ -1,5 +1,14 @@
-p {
-  column-count: 3;
-  column-gap: 2em;
-  column-rule: solid 3px black;
+body {
+  background-color: #121212;
+}
+
+img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+section {
+  column-count: 6;
+  column-gap: 10px;
 }
